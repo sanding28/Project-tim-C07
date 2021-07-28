@@ -1,0 +1,253 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  background-color: rgb(159, 220, 239);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.header-left {
+  float: left;
+  margin-bottom: 20px;
+}
+.logo {
+  width: 45%;
+  margin-left: 20px;
+}
+.header-right {
+  float: right;
+  height: 70px;
+  font-size: 15px;
+  width: 320px;
+  overflow: auto;
+}
+
+.header-right a {
+  color: white;
+  line-height: 55px;
+  padding: 0 20px;
+}
+.header-right li {
+  float: left;
+}
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+/* Dari sini */
+.banner {
+  height: 490px;
+  background-image: url('./image/top.jpg');
+  background-size: cover;
+  opacity: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.banner h1 {
+  color: #a18b89;
+  font-family: sans-serif;
+  font-size: 48px;
+  line-height: 78px;
+}
+
+.top-destination {
+  background-color: #dff3fa;
+}
+
+.container {
+  margin: 0;
+  background: #dff3fa;
+}
+
+.container h2 {
+  color: #14183e;
+  text-align: center;
+  margin-top: 0;
+  font-size: 50px;
+  line-height: 64.5px;
+  padding-bottom: 60px;
+  padding-top: 50px;
+  font-family: volkhov;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 80px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  align-items: center;
+}
+
+.grid > article {
+  background: white;
+  margin: auto;
+  border: none;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 10);
+  border-radius: 20px;
+  text-align: center;
+  width: 250px;
+  transition: transform 0.3s;
+}
+
+.grid > article:hover {
+  transform: translateY(5px);
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 10);
+}
+
+.grid > article img {
+  width: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-radius: 20px;
+}
+
+.text {
+  padding: 0 20px 20px;
+}
+
+.text h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.text button {
+  background: black;
+  border-radius: 20px;
+  display: inline-block;
+  border: none;
+  color: #dff3fa;
+  padding: 10px;
+  width: 100%;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.text button:hover {
+  opacity: 1;
+}
+/* sampai sini */
+
+/* team member */
+.team-member {
+  background-color: #d1e9f3;
+  height: 446px;
+  width: 100%;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 24px;
+}
+
+.heading h1 {
+  font-family: Volkhov;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 64px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #14183e;
+}
+.clear {
+  clear: left;
+}
+
+.members {
+  padding: 2%;
+}
+
+.member {
+  float: left;
+  text-align: center;
+  width: 168px;
+  height: 224px;
+  background-color: #fff;
+  margin-left: 80px;
+  border-radius: 10px;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
+    0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+}
+
+.image {
+  width: 68px;
+  height: 68px;
+  margin-top: 33px;
+  border-radius: 34px;
+}
+
+.name p {
+  color: #5e6282;
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.daerah {
+  padding: 0 26px 31px 26px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #5e6282;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  height: 208px;
+  left: 0px;
+  background: #9fdcef;
+}
+
+.tag1 {
+  margin: auto;
+  padding: 54px;
+  text-align: center;
+  color: #ffffff;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.tag2 {
+  margin: auto;
+  padding: 4px 0 42px 0;
+  text-align: center;
+  color: #ffffff;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 27px;
+}
